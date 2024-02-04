@@ -157,6 +157,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ActionButton(
               title: 'INGRESO DE PRODUCTOS',
               iconData: FontAwesomeIcons.truck,
+              //* SE NAVEGA A INTERFAZ NUEVO INGRESO
               routeName: '/lots',
             ),
             ActionButton(

@@ -55,6 +55,7 @@ class _NuevoLoteScreenState extends State<NuevoLoteScreen> {
                 icon: Icon(Icons.add),
                 label: Text('Añadir producto'),
                 onPressed: () {
+                  //* SE NAVEGA A FORMULARIO DE REGISTRO
                   Navigator.pushNamed(context, "/add_product");
                 },
                 style: ElevatedButton.styleFrom(

@@ -22,6 +22,7 @@ class _ProductDetailsFormState extends State<ProductDetailsForm> {
       return [];
     }
     try {
+      // * TRAE DETALLES DE LOS PRODUCTOS DEL CONTROLADOR
       List<dynamic> products =
           await ApiService().consultarDetallesProducto(query);
       return products
